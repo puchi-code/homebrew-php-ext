@@ -4,4 +4,5 @@ class PhpPgsql < PhpExtensionFormula
   extension_dsl "Psql"
   configure_arg %W[
     --with-pgsql
+  ]
 end
